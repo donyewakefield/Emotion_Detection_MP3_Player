@@ -1,0 +1,8 @@
+db_connect - Issues
+* the password may need to be hashed in some way for security reasons
+* label needs to be generalized to accept any label from the AI model
+* function should be made that handles this whole process of selecting and fetching info and song itself 
+* there is no need for aliases in the query on line 37
+* make sure there is a way to loop this process of selecting and fetching info and song itself instead of program terminating each time a song is over
+* Optimize code if possible
+

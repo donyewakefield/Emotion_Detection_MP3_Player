@@ -1,0 +1,65 @@
+
+-- NEUTRAL
+-- images
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (21234, 'my_moment','jfif', '125KB', '128KB', 640, 640, 640*640, 'images/my_moment.jfif');
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (22345, 'bad_boujee','jpg', '256KB', '255KB', 1200, 1200, 1200*1200, 'images/bad_boujee.jpg');
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (23456, 'wanna_startin','jpg', '108KB', '105KB', 594, 600, 594*600,'images/wanna_startin.jpg');
+-- songs
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (12345, 21234,'My Moment ft. 2 Chainz, Meek Mill, & Jeremih', 'my_moment_ft_2_chainz_meek_mill_&_jeremih','3 minutes 20 seconds', 'mp3', '3.06MB','3.06MB','neutral', '128kbps', 'DJ Drama', 'Hip Hop', 'songs/Neutral/my_moment_ft_2_chainz_meek_mill_&_jeremih.mp3');
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (13456, 22345,'Bad and Boujee ft Lil Uzi Vert', 'bad_and_boujee_ft_lil_uzi_vert','5 minutes 30 seconds', 'mp3', '5.04MB','5.03MB','neutral', '128kbps', 'Migos', 'Trap', 'songs/Neutral/bad_and_boujee_ft_lil_uzi_vert.mp3');
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (14567, 23456,'Wanna Be Startin Somethin', 'wanna_be_startin_somethin','6 minutes 3 seconds', 'mp3', '5.54MB','5.54MB','neutral', '128kbps', 'Michael Jackson', 'Funk', 'songs/Neutral/wanna_be_startin_somethin.mp3');
+-------------------------------------------------------------------------------------------
+-- ANGRY
+-- images
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (24567, 'dreams_and_nightmares','jpg', '32KB', '29.9KB', 300, 300, 300*300, 'images/dreams_and_nightmares.jpg');
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (25678, 'just_like_you','jfif', '144KB', '143KB', 640, 632, 640*632, 'images/just_like_you.jfif');
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (26789, 'love_way_you_lie','jpg', '48KB', '47.9KB', 417, 438, 417*438, 'images/love_way_you_lie.jpg');
+-- songs
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (15678, 24567,'Dreams and Nightmares', 'dreams_and_nightmares','4 minutes 53 seconds', 'mp3', '4.48MB','4.48MB','angry', '128kbps', 'Meek Mill', 'Rap', 'songs/Angry/dreams_and_nightmares.mp3');
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (16789, 25678,'Just Like You', 'just_like_you','3 minutes 8 seconds', 'mp3', '2.87MB','2.87MB','angry', '128kbps', 'Three Days Grace', 'Hard Rock', 'songs/Angry/just_like_you.mp3');
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (17891, 26789,'Love The Way You Lie ft. Rihanna', 'love_the_way_you_lie_ft_rihanna','4 minutes 27 seconds', 'mp3', '4.07MB','4.07MB','angry', '128kbps', 'Eminem', 'Hip Hop', 'songs/Angry/love_the_way_you_lie_ft_rihanna.mp3');
+-------------------------------------------------------------------------------------------------------------
+-- SAD
+-- images
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (27891, 'how_save_life','jpg', '120KB', '117KB', 600, 600, 600*600, 'images/how_save_life.jpg');
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (28912, 'logic_1800','jfif', '172KB', '169KB', 640, 640, 640*640, 'images/logic_1800.jfif');
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (29123, 'something_in_way','jfif', '120KB', '117KB', 640, 640, 640*640, 'images/something_in_way.jpg');
+-- songs
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (18912, 27891,'How to Save a Life', 'how_to_save_a_life','4 minutes 24 seconds', 'mp3', '4.03MB','4.03MB','sad', '128kbps', 'The Fray', 'Pop Rock', 'songs/Sad/how_to_save_a_life.mp3');
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (19123, 28912, '1-800-273-8255 ft. Alessia Cara & Khalid', '1-800-273-8255_ft_alessia_cara_&_khalid','4 minutes 10 seconds', 'mp3', '3.82MB','3.81MB','sad', '128kbps', 'Logic', 'Pop Rap', 'songs/Sad/1-800-273-8255_ft_alessia_cara_&_khalid.mp3');
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (11234, 29123,'Something In The Way', 'something_in_the_way','3 minutes 51 seconds', 'mp3', '3.52MB','3.52MB','sad', '128kbps', 'Nirvana', 'Acoustic rock', 'songs/Sad/something_in_the_way.mp3');
+----------------------------------------------------------------------------------------------------------------------------
+-- HAPPY
+-- images
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (22456, 'mambo_num_5','jfif', '156KB', '154KB', 640, 640, 640*640, 'images/mambo_num_5.jpg');
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (22567, 'right_back_where_started','jfif', '88KB', '84.7KB', 600, 600, 600*600, 'images/right_back_where_started.jfif');
+INSERT INTO images(img_id, file_name, file_type, disk_size, file_size, width, height, resolution, file_path)
+VALUES (22678, 'pharrell_happy','jfif', '84KB', '80.6KB', 640, 640, 640*640, 'images/pharrell_happy.jfif');
+-- songs
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (11345, 22456,'Mambo Number 5 (A Little Bit...)', 'mambo_no5_(a_little_bit...)','3 minutes 31 seconds', 'mp3', '3.23MB','3.22MB','happy', '128kbps', 'Lou Bega', 'Latin Pop', 'songs/Happy/mambo_no5_(a_little_bit...).mp3');
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (11456, 22567, 'Right Back Where We Started From', 'right_back_where_we_started_from','3 minutes 12 seconds', 'mp3', '2.93MB','2.93MB','happy', '128kbps', 'Maxine Nightingale', 'R&B/Soul', 'songs/Happy/right_back_where_we_started_from.mp3');
+INSERT INTO songs(song_id, img_id, title, file_name, duration, file_type, disk_size, file_size, song_label, bit_rate, artists, genre, file_path)
+VALUES (11567, 22678,'Happy', 'pharrell_williams_happy','4 minutes 0 seconds', 'mp3', '5.51MB','5.50MB','happy', '128kbps', 'Pharrell Williams', 'Pop', 'songs/Happy/pharrell_williams_happy.mp3');
+----------------------------------------------------------------------------------------------------------------------------

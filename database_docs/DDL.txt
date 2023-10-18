@@ -1,0 +1,34 @@
+CREATE TABLE images
+(img_id			varchar(5),
+ file_name		varchar(225) NOT NULL,
+ file_type		varchar(10),
+ width			integer,
+ height			integer,
+ resolution		integer,
+ disk_size		varchar(10),
+ file_size		varchar(10),
+ file_path		varchar(225) NOT NULL,
+ CONSTRAINT images_pkey1 PRIMARY KEY (img_id)
+);
+
+CREATE TABLE songs
+(song_id		varchar(5),
+img_id			varchar(5),
+file_name		varchar(225) NOT NULL,
+title			varchar(75) NOT NULL,
+duration		interval NOT NULL,
+file_type		varchar(10),
+disk_size		varchar(10),
+file_size		varchar(10),
+song_label		varchar(10) NOT NULL,
+bit_rate		varchar(10),
+artists			varchar(75) NOT NULL,
+genre			varchar(20) NOT NULL,
+file_path		varchar(225) NOT NULL,
+CONSTRAINT songs_pkey1 PRIMARY KEY (song_id),
+CONSTRAINT songs_fkey1 FOREIGN KEY (img_id)
+REFERENCES images
+ 	ON DELETE CASCADE
+ 	ON UPDATE CASCADE
+);
+

@@ -1,0 +1,3 @@
+data_prep Issues:
+* racial and sex diversity may need to be evaluated eventually
+* make sure code is clear, organized, and well documented

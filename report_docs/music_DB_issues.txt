@@ -1,0 +1,5 @@
+Database issues:
+* make sure to add all gif files to database: fire.gif, rain.gif, sunset.gif, and bright.gif
+* the file, dreams_and_nightmares, needs to be replaced with a new mp3 file due to unmatching music audio at the end of the song
+* the file, right_back_where_we_started_from, has a genre error. The song should only be Soul not R&B/Soul
+
